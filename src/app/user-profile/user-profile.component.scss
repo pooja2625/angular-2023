@@ -1,0 +1,46 @@
+.mat-mdc-card {
+    padding: 30px;
+    border-radius: 0;
+    box-shadow: 0px 3px 6px #9d9d9d;
+    border-radius: 5px;
+    mat-card-header {
+        display: block;
+        text-align: center;
+        padding: 0;
+        .mat-mdc-card-avatar {
+            width: auto;
+            height: auto;
+            margin-bottom: 10px;
+            
+            .profile {
+                width: 90px;
+            }
+        }
+        mat-card-title {
+            font-size: 21px;
+            font-weight: 500;
+           
+        }
+        mat-card-subtitle {
+            padding-top: 10px !important;
+            .premium-member {
+                width: 18px;
+            }
+        }
+        
+    }
+    .mat-mdc-card-content {
+        
+        padding: 25px 0;
+        margin-bottom: 12px;
+        border-bottom: 1px solid #e1e1e1;
+        .mat-icon {
+            width: 34px;
+        }
+        p {
+            line-height: 23px;
+            font-size: 15px;
+        }
+    }
+}
+

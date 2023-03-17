@@ -1,0 +1,41 @@
+.user-details-card {
+    border: 1px solid #ebeaea;
+    box-shadow: none;
+    .mat-mdc-card-header {
+        background-color: #e7eacd;
+        padding: 15px 25px;
+        font-weight: 500;
+    }
+    .mat-mdc-card-content {
+        border: 1px solid #e7e6e6;
+        margin: 20px 20px 30px;
+        padding: 15px 20px;
+        .card-details-header{
+            border-bottom: 1px solid #e7e7e7;
+            padding-bottom: 10px;
+            .mat-icon {
+                color: #76785f;
+            }
+            .warn-btn {
+                background-color: #c72028;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                padding: 10px 25px;
+                font-size: 15px;
+            }
+        }
+        table {
+            box-shadow: none;
+            .mdc-data-table__row {
+                height: 35px;
+                .mdc-data-table__cell {
+                    border-bottom: none;
+                    padding: 0;
+                }
+                
+            }
+        }
+        
+    }
+}

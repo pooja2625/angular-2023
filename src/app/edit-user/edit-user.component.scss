@@ -1,0 +1,15 @@
+form {
+    padding: 30px;
+    .mat-mdc-form-field {
+        display: block;
+        
+    }
+    .btn-submit {
+        background-color: #c72028;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+}
